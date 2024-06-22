@@ -2,35 +2,34 @@ import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:get/get.dart';
 
-import 'package:tugas_progmob_2/utils/theme/theme.dart';
-import 'package:tugas_progmob_2/features/authentication/screens/splash_screen.dart';
-import 'package:tugas_progmob_2/features/authentication/screens/login_page.dart';
-import 'package:tugas_progmob_2/features/authentication/screens/register_page.dart';
+import 'package:simpan_pinjam/utils/theme/theme.dart';
+import 'package:simpan_pinjam/features/authentication/screens/splash_screen.dart';
+import 'package:simpan_pinjam/features/authentication/screens/login_page.dart';
+import 'package:simpan_pinjam/features/authentication/screens/register_page.dart';
 
-import 'package:tugas_progmob_2/features/profile/screens/profile_page.dart';
+import 'package:simpan_pinjam/features/profile/screens/profile_page.dart';
 
-import 'package:tugas_progmob_2/features/users/screens/users_list.dart';
-import 'package:tugas_progmob_2/features/users/screens/add_user.dart';
-import 'package:tugas_progmob_2/features/users/screens/user_detail.dart';
-import 'package:tugas_progmob_2/features/users/screens/edit_user.dart';
+import 'package:simpan_pinjam/features/users/screens/users_list.dart';
+import 'package:simpan_pinjam/features/users/screens/add_user.dart';
+import 'package:simpan_pinjam/features/users/screens/user_detail.dart';
+import 'package:simpan_pinjam/features/users/screens/edit_user.dart';
 
-import 'package:tugas_progmob_2/features/transaction/screens/transaction.dart';
-import 'package:tugas_progmob_2/features/transaction/screens/transaction_type.dart';
-import 'package:tugas_progmob_2/features/transaction/screens/bunga_list.dart';
-import 'package:tugas_progmob_2/features/transaction/screens/add_bunga.dart';
+import 'package:simpan_pinjam/features/transaction/screens/transaction.dart';
+import 'package:simpan_pinjam/features/transaction/screens/transaction_type.dart';
+import 'package:simpan_pinjam/features/transaction/screens/bunga_list.dart';
+import 'package:simpan_pinjam/features/transaction/screens/add_bunga.dart';
 
-import 'package:tugas_progmob_2/features/savings/screens/savings_list.dart';
-import 'package:tugas_progmob_2/features/savings/screens/savings_detail.dart';
-import 'package:tugas_progmob_2/features/savings/screens/add_saving.dart';
+import 'package:simpan_pinjam/features/savings/screens/savings_list.dart';
+import 'package:simpan_pinjam/features/savings/screens/savings_detail.dart';
+import 'package:simpan_pinjam/features/savings/screens/add_saving.dart';
 
-Future<void> main() async{
+Future<void> main() async {
   await GetStorage.init();
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  
 
   @override
   Widget build(BuildContext context) {

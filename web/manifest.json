@@ -1,6 +1,6 @@
 {
-    "name": "tugas_progmob_2",
-    "short_name": "tugas_progmob_2",
+    "name": "simpan_pinjam",
+    "short_name": "simpan_pinjam",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

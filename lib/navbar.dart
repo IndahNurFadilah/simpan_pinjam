@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:tugas_progmob_2/features/profile/screens/profile_page.dart';
-import 'package:tugas_progmob_2/features/users/screens/users_list.dart';
-import 'package:tugas_progmob_2/features/transaction/screens/transaction.dart';
-import 'package:tugas_progmob_2/features/savings/screens/savings_list.dart';
+import 'package:simpan_pinjam/features/profile/screens/profile_page.dart';
+import 'package:simpan_pinjam/features/users/screens/users_list.dart';
+import 'package:simpan_pinjam/features/transaction/screens/transaction.dart';
+import 'package:simpan_pinjam/features/savings/screens/savings_list.dart';
+
 class NavBar extends StatelessWidget {
   const NavBar({super.key});
 
@@ -23,7 +24,8 @@ class NavBar extends StatelessWidget {
             NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
             NavigationDestination(icon: Icon(Icons.group), label: 'Anggota'),
             NavigationDestination(icon: Icon(Icons.savings), label: 'Tabungan'),
-            NavigationDestination(icon: Icon(Icons.payments_rounded), label: 'Transaksi')
+            NavigationDestination(
+                icon: Icon(Icons.payments_rounded), label: 'Transaksi')
           ],
         ),
       ),

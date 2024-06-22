@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_progmob_2/features/authentication/screens/starting_page.dart';
+import 'package:simpan_pinjam/features/authentication/screens/starting_page.dart';
 import 'dart:async';
 
 class SplashScreen extends StatefulWidget {
